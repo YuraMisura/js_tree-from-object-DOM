@@ -1,0 +1,2 @@
+!function e(t,n){let l=document.createElement("ul");for(let[r,c]of(t.appendChild(l),Object.entries(n))){let t=document.createElement("li");if(t.textContent=r,"object"==typeof c&&Object.keys(c).length>0){let n=e(document.createElement("ul"),c);t.appendChild(n)}l.appendChild(t)}return l}(document.querySelector("#tree"),{Drink:{Wine:{},Schnaps:{}},Fruit:{Red:{Cherry:{},Strawberry:{}},Yellow:{Banana:{},Pineapple:{}}}});
+//# sourceMappingURL=index.690ecc9e.js.map
